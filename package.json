@@ -1,18 +1,19 @@
 {
-  "name": "www",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "postcss ./src/styles.css -o ./dis/styles.css"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.1"
-  }
+    "name": "www",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss ./src/styles.css -o ./docs/styles.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.18",
+        "copyfiles": "^2.4.1",
+        "postcss": "^8.4.35",
+        "postcss-cli": "^11.0.0",
+        "tailwindcss": "^3.4.1"
+    }
 }
